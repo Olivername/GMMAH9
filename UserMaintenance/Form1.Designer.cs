@@ -30,10 +30,8 @@
         {
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.lblLastName = new System.Windows.Forms.TextBox();
-            this.lblFirstName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnAdd = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBox1
@@ -50,13 +48,6 @@
             this.lblLastName.Name = "lblLastName";
             this.lblLastName.Size = new System.Drawing.Size(255, 20);
             this.lblLastName.TabIndex = 1;
-            // 
-            // lblFirstName
-            // 
-            this.lblFirstName.Location = new System.Drawing.Point(367, 103);
-            this.lblFirstName.Name = "lblFirstName";
-            this.lblFirstName.Size = new System.Drawing.Size(255, 20);
-            this.lblFirstName.TabIndex = 2;
             // 
             // label1
             // 
@@ -76,24 +67,13 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "label2";
             // 
-            // btnAdd
-            // 
-            this.btnAdd.Location = new System.Drawing.Point(320, 170);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(302, 100);
-            this.btnAdd.TabIndex = 5;
-            this.btnAdd.Text = "btnAdd";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblFirstName);
             this.Controls.Add(this.lblLastName);
             this.Controls.Add(this.listBox1);
             this.Name = "Form1";
@@ -107,10 +87,8 @@
 
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.TextBox lblLastName;
-        private System.Windows.Forms.TextBox lblFirstName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnAdd;
     }
 }
 
